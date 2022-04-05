@@ -95,7 +95,6 @@
                   <artifactId>sonar-maven-plugin</artifactId>
                   <version>3.2</version>
              </dependency>
-
           <profiles>
             <profile>
               <id>sonar</id>
@@ -105,7 +104,7 @@
             <properties>
               <!-- Optional URL to server. Default value is http://localhost:9000 -->
              <sonar.host.url>
-                 http://192.168.2.174:9000
+                 http://54.167.255.148:9000
               </sonar.host.url>
           </properties>
          </profile>
